@@ -6,7 +6,7 @@ metadata:
   namespace: prod
   labels:
     app: backend
-spec:
+spec: 
   replicas: 3
   selector:
     matchLabels:
